@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui;
+}
+header,
+nav ul {
+  display: none;
+}
+
+/* ADDED A WHITE BACKGROUND IMAGE TO THIS SECTION. THIS SECTION WOULD RUN TILL THE END OF THE "MAIN-SECTION"  */
+.bg-img-white-section {
+  background-image: url(images/IMG_8569.PNG);
+}
+/* END OF  SECTION WITH THE WHITE BG IMAGE  */
+
+/* HERO SECTION BEGINS */
+.hero-section {
+  padding: 10% 3%;
+}
+.hero-section p {
+  font-style: italic;
+  font-size: 0.8rem;
+  padding: 8% 0;
+}
+.hero-section h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1px;
+}
+.hero-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 20% 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.hero-section button:hover {
+  background: none;
+  color: #212529;
+  border: 2px solid black;
+}
+/* Style for the arrow icon beside the button */
+.hero-section span i {
+  padding: 0 2%;
+}
+/* style for the icon ended here */
+.hero-section hr {
+  background-color: black;
+  padding: 0.8% 0;
+  border: none;
+  margin: 15% 0;
+}
+/* HERO SECTION ENDS.... */
+
+/* MAIN SECTION BEGINS */
+main {
+  padding: 0 3%;
+}
+main h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 34px;
+}
+.attributes {
+  padding: 15% 0;
+}
+/* Style for the icon */
+.attributes i {
+  padding: 10% 0;
+  font-size: 2rem;
+}
+/* style for the icon ended here */
+.attributes h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.attributes p {
+  padding: 5% 0 10% 0;
+}
+/* END OF MAIN SECTION */
+
+/* BEGINNING OF FEATURES SECTION */
+.features-section {
+  padding: 15% 3%;
+}
+.features-section-item {
+  display: flex;
+  flex-direction: column;
+}
+.features-section-item01 h1 {
+  padding: 10% 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 34px;
+}
+.features-section-item01 p {
+  padding: 10% 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 70%;
+  color: rgba(0, 0, 0, 0.596);
+}
+.features-section-item02 {
+  order: -1;
+}
+.features-section img {
+  width: 100%;
+}
+.features-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 10% 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.features-section button:hover {
+  background: white;
+  color: #212529;
+  border: 2px solid black;
+}
+/* Style for the arrow icon beside the button */
+.features-section span i {
+  padding: 0 2%;
+}
+/* style for the icon ended here */
+.features-section hr {
+  background-color: black;
+  padding: 0.8% 0;
+  border: none;
+  margin: 15% 0;
+}
+/* END OF FEATURES SECTION */
+
+/* BEGINNING OF ENCOUNTER SECTION */
+.encounter-section {
+  padding: 0 3%;
+}
+.encounter-section-first-child {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.63);
+}
+.encounter-section h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 34px;
+  padding: 5% 0;
+}
+.num-text {
+  padding: 0;
+}
+.num-text01,
+.num-text02 {
+  display: flex;
+  gap: 15%;
+  align-items: center;
+  justify-content: center;
+}
+.num-text01 .num,
+.num-text02 .num {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.num-text01 .text,
+.num-text02 .text {
+  color: rgba(0, 0, 0, 0.596);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.encounter-section hr {
+  background-color: black;
+  padding: 0.3% 0;
+  border: none;
+  margin: 15% 0;
+}
+.vision p {
+  font-size: 1rem;
+  padding-top: 5%;
+  letter-spacing: 0.5px;
+}
+.mission p {
+  padding-top: 5%;
+  letter-spacing: 0.5px;
+}
+.vision h3,
+.mission h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* END OF ENCOUNTER SECTION */
+
+/* BEGINNING OF SUMMARY SECTION */
+.summary-section {
+  background: rgba(0, 0, 0, 0.589)
+    url(images/maxwell-nelson-VJeAZr-Bu9E-unsplash\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  color: white;
+  margin: 20% 0;
+  padding: 20% 3%;
+}
+.summary-section h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 48px;
+}
+.summary-section p {
+  padding: 10% 0;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.summary-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.summary-section button:hover::after {
+  opacity: 1;
+  right: 28%;
+}
+.summary-section button::after {
+  content: "\00BB";
+  position: absolute;
+  opacity: 0;
+  font-size: 1.5rem;
+  top: 8px;
+  right: 10%;
+  transition: 0.4s;
+}
