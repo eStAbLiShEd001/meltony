@@ -284,7 +284,6 @@ main h1 {
     letter-spacing: 1px;
 }
 .our-achievements p {
-    font-size: 0.9rem;
     color: gray;
     padding: 3% 0;
 }
@@ -325,4 +324,164 @@ main h1 {
     letter-spacing: 0.5px;
     font-weight: bold;
     line-height: 25px;
+}
+ /* END OF PROMOTION SECTION */
+
+ /* BEGINNING OF IMPRESS SECTION */
+ .impress-section {
+  padding: 25% 0;
+ }
+ .impress-section-header {
+  padding: 0 3%;
+ }
+ .impress-section h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1.2px;
+}
+ .impress-section button {
+  width: 100%;
+  padding: 5% 5%;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  margin: 15% 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.impress-section button:hover {
+  background: none;
+  color: #212529;
+  border: 2px solid black;
+}
+/* Style for the arrow icon beside the button */
+.impress-section span i {
+  padding: 0 2%;
+}
+/* style for the icon ended here */
+.impress-section-images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.impress-section-images img {
+  width: 100%;
+}
+/* IMPRESS SECTION ENDS */
+
+/* ASIDE SECTION BEGINS */
+/* aside {
+  padding: 0 3%;
+
+}
+.aside-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aside-div div {
+  overflow: hidden;
+
+}
+aside p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 10% 0;
+} */
+
+/* ASIDE SCTION ENDS HERE */
+
+/* FOOTER SECTION BEGINS HERE */
+footer {
+  background-color: rgba(236, 236, 236, 0.377);
+  padding: 25% 3% 10% 3%;
+}
+footer p {
+  color: gray;
+  font-size: 0.9rem;
+}
+footer input[type = email] {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+  width: 100%;
+  padding: 5% 0;
+  font-size: 1.5rem;
+  color: black;
+  letter-spacing: 0.8px;
+
+}
+footer input[type = email]::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.get-in-touch {
+  position: relative;
+}
+footer span i {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  font-size: 1.5rem;
+}
+.get-social-text {
+  padding: 10% 0;
+}
+.get-social {
+  display: flex;
+  justify-content: space-around;
+}
+.get-social i {
+  font-size: 1.5rem;
+}
+.information-projects {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style-type: none;
+  padding: 7% 0;
+}
+.information-projects ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+}
+.information-projects p {
+  padding: 50% 0 20% 0;
+}
+footer hr {
+  background-color: black;
+  padding: 0.5% 0;
+  border: none;
+  margin: 15% 0;
+}
+.address .address02 {
+  color: black;
+  padding: 10% 0;
+  font-size: 1.3rem;
+  width: 70%;
+  letter-spacing: 0.5px;
+}
+.contact .contact01 {
+  padding-bottom: 5%;
+}
+.contact p a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.8px;
+
+}
+.contact .number a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.contact .mailto a {
+  font-size: 1.2rem;
 }
