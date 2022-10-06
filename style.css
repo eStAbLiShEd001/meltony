@@ -6,6 +6,7 @@
 body {
   font-family: system-ui;
 }
+/* STYLESHEET FOR MOBILE VERSION ONLY.  */
 header,
 nav ul {
   display: none;
@@ -50,12 +51,13 @@ nav ul {
   color: #212529;
   border: 2px solid black;
 }
+
 /* Style for the arrow icon beside the button */
 .hero-section span i {
   padding: 0 2%;
 }
 /* style for the icon ended here */
-.hero-section hr {
+.hero-section-hr hr {
   background-color: black;
   padding: 0.8% 0;
   border: none;
@@ -66,6 +68,9 @@ nav ul {
 /* MAIN SECTION BEGINS */
 main {
   padding: 0 3%;
+}
+.main-img img {
+  display: none;
 }
 main h1 {
   font-size: 1.8rem;
@@ -484,4 +489,76 @@ footer hr {
 }
 .contact .mailto a {
   font-size: 1.2rem;
+}
+
+
+/* MOBILE VERSION ENDED HERE! */
+
+/* SCREEN SIZES BETWEEN 992PX AND ABOVE */
+
+@media (min-width: 992px) {
+
+/* HERO SECTION BEGINS */
+  .hero-section {
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    padding: 10%;
+    background-image: url(images/steve-johnson-TnjzgonRFPU-unsplash-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: 650px;
+
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+    padding: 4% 0;
+  }
+  .hero-section h1 {
+    font-size: 5rem;
+    line-height: 85px;
+    width: 50%;
+  }
+  .hero-section-img {
+    display: block;
+  }
+
+.hero-section button {
+  width: 30%;
+  padding: 2% 5%;
+  margin: 10% 0;
+}
+.hero-section-hr hr {
+  background-color: black;
+  padding: 0.2% 0;
+  border: none;
+  margin: 0.5% 10%;
+}
+/* HERO SECTION ENDS.... */
+
+/* MAIN SECTION BEGINS */
+main {
+  display: flex;
+
+  margin-top: 10%;
+  justify-content: space-between;
+  padding: 0 10%;
+  
+}
+main h1 {
+  font-size: 2.5rem;
+   font-weight: 600;
+  line-height: 45px; 
+  letter-spacing: 0.1rem;
+}
+.attributes {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10% 0;
+  gap: 5%;
+}
+.main-img img {
+  display: block;
+  width: 500px;
+}
+
 }
