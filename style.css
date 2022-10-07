@@ -514,7 +514,7 @@ footer hr {
     padding: 4% 0;
   }
   .hero-section h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
     line-height: 85px;
     width: 50%;
   }
@@ -527,6 +527,11 @@ footer hr {
   padding: 2% 5%;
   margin: 10% 0;
 }
+/* Style for the arrow icon beside the button */
+.hero-section span i {
+  padding: 0 5%;
+}
+/* style for the icon ended here */
 .hero-section-hr hr {
   background-color: black;
   padding: 0.2% 0;
@@ -538,7 +543,6 @@ footer hr {
 /* MAIN SECTION BEGINS */
 main {
   display: flex;
-
   margin-top: 10%;
   justify-content: space-between;
   padding: 0 10%;
@@ -548,7 +552,7 @@ main h1 {
   font-size: 2.5rem;
    font-weight: 600;
   line-height: 45px; 
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.5px;
 }
 .attributes {
   display: grid;
@@ -560,5 +564,75 @@ main h1 {
   display: block;
   width: 500px;
 }
+/* END OF MAIN SECTION */
+
+/* BEGINNING OF FEATURES SECTION */
+.features-section {
+  padding: 10%;
+}
+.features-section-item {
+  flex-direction: row-reverse;
+  gap: 10%;
+}
+.features-section-item01 h1 {
+  font-size: 2.5rem;
+  line-height: 45px; 
+  letter-spacing: 0.5px;
+  padding: 5% 0;
+}
+.features-section-item01 p {
+  padding: 2% 0;
+}
+
+.features-section img {
+  width: 400px;
+}
+.features-section button {
+  width: 50%;
+  padding: 3% 5%;
+  margin: 10% 0;
+}
+/* Style for the arrow icon beside the button */
+.features-section span i {
+  padding: 0 5%;
+}
+/* style for the icon ended here */
+.features-section-hr hr {
+  background-color: black;
+  padding: 0.2% 0;
+  border: none;
+  margin: 0.5% 10%;
+}
+/* END OF FEATURES SECTION */
+
+/* BEGINNING OF ENCOUNTER SECTION */
+.encounter-section {
+  padding: 10%;
+}
+.encounter-section h1 {
+  font-size: 2.5rem;
+  line-height: 50px; 
+  letter-spacing: 0.5px;
+  padding: 2% 0;
+}
+.num-text-vision-mission {
+  display: flex;
+  gap: 10%;
+  padding: 5% 0;
+}
+.num-text01,
+.num-text02 {
+  display: flex;
+  gap: 15%;
+  /* align-items: center; */
+  justify-content: space-between;
+  white-space: nowrap;
+}
+/* .encounter-section hr {
+  background-color: black;
+  padding: 0.3% 0;
+  border: none;
+  margin: 15% 0;
+} */
 
 }
